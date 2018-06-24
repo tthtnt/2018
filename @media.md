@@ -11,4 +11,3 @@
 * 如果想要在800像素处设置断点，但又想用em单位，可以用800除以16，就是50em,16应该是浏览器默认字体大小
 
 * device-height、device-width、devic-aspect-radio，在4级查询草案中被废弃
-
