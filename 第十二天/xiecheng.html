@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-width: 320px;
+            max-width: 540px;
+            /* background-color: palegoldenrod; */
+            margin: 0 auto;
+            height: 400px;
+        }
+
+        header {
+            height: 108px;
+
+        }
+
+        header img {
+            width: auto;
+            height: 100%;
+        }
+
+        nav {
+            border: 1px solid #ccc;
+            padding: 4px;
+        }
+
+        .row {
+            height: 90px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+        .row div {
+            height: 100%;
+            flex: 1;
+            background-color: #ff697a;
+            border-right: 1px solid #ffffff;
+        }
+
+        .row div:nth-child(3) {
+            border: 0;
+        }
+
+        .row div a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;
+            text-shadow: 0 2px 1px rgba(0, 0, 0, .2);
+            /* 平时不建议使用，因为消耗处理器能力 */
+        }
+        .row33{
+            display: flex;
+            flex-direction: column;
+        }
+        .row33 a{
+            flex: 1;
+            line-height: 45px;
+        }
+        .row33 a:first-child{
+            border-bottom: 1px solid #fff;
+        }
+        .row em{
+            display: block;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            font-style: normal;
+        }
+        .row i{
+            display: block;
+            margin: 0 auto;
+            width: 43px;
+            height: 43px;
+            margin: -5px auto;
+            /* 为什么是负值因为css的坐标轴和正常是相反的 */
+            background: url("ctrip.png") no-repeat 0 -127px;
+            background-size: 104px auto;
+        }
+        .row .icon-flight{
+            background-position: 0 -288px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="banner.jpg" alt="">
+    </header>
+    <nav>
+        <div class="row">
+            <div>
+                <a href="#">
+                    <em>酒店</em>
+                    <i></i>
+                </a>
+            </div>
+            <div class="row33">
+                <a href="">海外酒店</a>
+                <a href="">特价酒店</a>
+            </div>
+            <div class="row33">
+                <a href="">团购</a>
+                <a href="">民宿客栈</a>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <a href="#">
+                    <em>酒店</em>
+                    <i class="icon-flight"></i>
+                </a>
+            </div>
+            <div class="row33">
+                <a href="">海外酒店</a>
+                <a href="">特价酒店</a>
+            </div>
+            <div class="row33">
+                <a href="">团购</a>
+                <a href="">民宿客栈</a>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <a href="#">
+                    <em>酒店</em>
+                    <i></i>
+                </a>
+            </div>
+            <div class="row33">
+                <a href="">海外酒店</a>
+                <a href="">特价酒店</a>
+            </div>
+            <div class="row33">
+                <a href="">团购</a>
+                <a href="">民宿客栈</a>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <a href="#">
+                    <em>酒店</em>
+                    <i></i>
+                </a>
+            </div>
+            <div class="row33">
+                <a href="">海外酒店</a>
+                <a href="">特价酒店</a>
+            </div>
+            <div class="row33">
+                <a href="">团购</a>
+                <a href="">民宿客栈</a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
