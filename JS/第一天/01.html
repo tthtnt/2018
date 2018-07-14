@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <script>
+        // 数字的最大值和最小值
+        console.log(Number.MAX_VALUE);
+        console.log(Number.MIN_VALUE);
+        // bug
+        // 小数的精度有问题， 不能用小数验证小数
+        var x = 0.1;
+        var y = 0.2;
+        console.log(x + y);
+        // 不能用NaN 验证 NaN
+        var num;
+        console.log(isNaN(num));
+
+        // 字符串
+        var str1 = "10";
+        var str2 = 5;
+        console.log("相加的时候： " + str1 + str2);
+        console.log("相减的时候： " + (str1 - str2));
+        // 只有相加的时候才会触发隐式转换
+        // 字符串转换问题
+        var test;
+        console.log(String(test));
+    </script>
 </body>
+
 </html>
