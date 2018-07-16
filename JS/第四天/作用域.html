@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 
+        {
+            var num = 10;
+            console.log(num);
+        }
+        console.log(num);
+        if (true) {
+            var number = 10;
+        }
+        console.log(number);
+        for (var i = 0; i < 5; i++) {
+            var number1 = 20;
+        }
+        console.log(number1);
+        // JS里面没有块级作用域
+
+        var i = 0;
+        while (i < 6) {
+            i++;
+            var num1 = 100;
+        }
+        console.log(num1);
+
+        function f1() {
+            // 在函数内部定义的变量是局部变量
+            var number2 = 10;
+        }
+        // console.log(number2);
+
+        // 全局变量不能被删除
+        var number3 = 10;
+        number4 = 20;
+        delete number3;
+        // 隐式全局变量可以被删除
+        delete number4;
+        console.log(number3);
+        console.log(typeof number3);
+        console.log(typeof number4);
+    </script>
+</body>
+
+</html>

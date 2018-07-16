@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        预解析 提前解析代码
+        变量的声明提前了
+        函数的声明也会被提前
+        提前到当前所在的 作用域 上面
+
+        */
+        console.log(num);
+        var num = 10;
+
+        f1();
+        function f1(){
+            console.log("哈哈哈");
+        }
+        // 函数调用的时候。会把函数声明提升到作用域的上面
+        f2();
+        var num1 = 20;//这个变量的声明会提升到变量使用之前
+        function f2(){
+            console.log(num1);//输出结果是undefined
+
+            // var num = 10;
+        }
+    </script>
+</body>
+</html>
