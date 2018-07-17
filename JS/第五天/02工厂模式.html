@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //人的对象
+        var person = new Object();
+        person.name = "小白";
+        person.age = 10;
+        person.sayHi = function(){
+            console.log("吃了没");
+        }
+        // 学生对象
+        var stu = new Object();
+        stu.name = "liusijie";
+        stu.age = 25;
+        stu.study = function(){
+            console.log("学习");
+        }
+        // 小狗对象
+        var dog = new Object();
+        dog.name = "小黄";
+        dog.age = 2;
+        dog.say = function(){
+            console.log("汪汪汪");
+        }
+
+        // 输出是不是人的类型
+        console.log(person instanceof Object);
+        console.log(stu instanceof Object);
+        console.log(dog instanceof Object);
+
+        function createObject(name,age){
+            var obj  =  new Object;
+            obj.name = name;
+            obj.age = age;
+            obj.sayHi = function(){
+                console.log("hi"+obj.name);
+            }
+            return obj;
+        }
+        var per1 = createObject("刘思杰",25);
+        per1.sayHi();
+        var per2 = createObject("彭晓彤",24);
+        per2.sayHi();
+    </script>
+</body>
+</html>

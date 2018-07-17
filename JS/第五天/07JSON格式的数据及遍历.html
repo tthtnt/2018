@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //JSON 格式的数据：一般都是成对的，是健值对，
+        // json也是一个对象，数据都是成对得到，一般json格式的数据无论是键还是值都是用双引号括起来的
+
+        var json = {
+            "name":"小明",
+            "age":"10",
+            "sex":"男"
+        };
+
+        for(var key in json){
+            console.log(key);
+            console.log(json[key]);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj = {
+            name:"小明"
+        }
+        function f2(obj2){
+            obj2.name = "小红";
+        }
+        console.log(obj.name);
+        f2(obj);
+        console.log(obj.name);
+        // 引用类型之间传递，传递的是地址
+
+        // 值类型作为函数的参数，传递的是值
+        function Person(name,age,salary){
+            this.name = name;
+            this.age = age;
+            this.salary = salary;
+        }
+        function f1(person){
+            person.name = 'ls';
+            person = new Person("aa",12,1000);
+        }
+
+        var p = new Person("zs",12,1000);
+        console.log(p.name);
+        f1(p);
+        console.log(p.name);
+    </script>
+</body>
+</html>

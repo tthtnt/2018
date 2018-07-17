@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 实例对象：通过构造函数创建出来，实例化的对象
+        // 静态对象：不需要创建，直接就是一个对象，方法（静态方法）直接通过这个对象名字调用
+        console.log(Math.E);
+
+        console.log(Math.abs(-1));
+
+        console.log("null的abs(): "+Math.abs(null));
+        console.log("String的abs(): "+Math.abs("string"));
+        // ceil 向上取整
+        console.log(Math.ceil(12.3));
+        console.log(Math.ceil(12.9));
+        console.log(Math.ceil(12.09));
+        console.log(Math.ceil(12.12));
+        console.log(Math.ceil(12.34));
+        // floor向下取整
+        console.log(Math.floor(12.3));
+        console.log(Math.floor(12.9));
+        console.log(Math.floor(12.09));
+        console.log(Math.floor(12.12));
+        console.log(Math.floor(12.34));
+
+        console.log(Math.fround(2));
+        console.log(Math.fround(2.1));
+        console.log(Math.fround(2.9));
+
+        // max
+        console.log(Math.max(10,1,9,100,200,34,64));
+        //min
+        console.log(Math.min(10,1,9,100,200,34,64));
+        // pow
+        console.log(Math.pow(10,2));
+        //sqrt
+        console.log(Math.sqrt(16));
+        // random
+        console.log(Math.ceil(Math.random()*5));
+    </script>
+</body>
+</html>
