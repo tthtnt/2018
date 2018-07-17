@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function MyMath() {
+            // 添加了一个方法
+            this.getMax = function () {
+                var max = arguments[0];
+                for (var i = 0; i < arguments.length; i++) {
+                    if (max < arguments[i]) {
+                        max = arguments[i];
+                    }
+                }
+                return max;
+            }
+        }
+        var mt = new MyMath();
+        var result = mt.getMax(10, 20, 30, 50, 40);
+        console.log(result);
+    </script>
+</body>
+
+</html>
