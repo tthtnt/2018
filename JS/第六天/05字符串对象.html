@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+         * String 是一个对象
+         * 字符串可以看成是字符组成的数组，js中没有字符类型
+         * 可以通过for循环遍历
+         * 直接var str=""是直接类型
+         * var str = new String()是引用类型
+         * 
+         * 
+         * 字符串的不可变性。
+         * 要用对象的方式来看待
+         * 只可以读取字符串中的某个值 ------只读
+         */
+
+
+
+        // var str = "hello";//js中可以看成是一个字符串数组
+        // for(var i = 0;i < str.length;i++){
+        //     console.log(str[i]);
+        // }    
+
+        // var str2 = "hello";
+        // str2[1] = "w";
+        // console.log(str2);
+
+        // replace(原来的字符串,新的字符串);
+        // var str3 = "liusijie,123214124";
+        // if(str3.indexOf("liusijie") != -1){
+        //     str3 = str3.replace("liusijie","小苏");
+        // }else{
+        //     console.log("不存在");
+        // }
+        // console.log(str3);
+
+        // slice 提取字符串的一部分
+        // var str = "1234436347457";
+        // str = str.slice(5,10);
+        // console.log(str);
+
+        // split 切割字符串
+        // var str = "123-412-455-143-541-123";
+        // var arr = str.split("-");
+        // for(var i = 0;i<arr.length;i++){
+        //     console.log(arr[i]);
+        // }
+            
+
+        // substr
+        // var str = "123456";
+        // console.log(str.substr(3,1));
+
+        // substring
+        var str = "123456";
+        str = str.substring(3,5);
+        console.log(str);
+    </script>
+</body>
+</html>

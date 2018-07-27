@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //普通变量不能直接调用属性或者方法
+        //对象可以直接调用属性和方法
+        
+        //基本包装类型本身是基本类型，但是在执行代码的过程中，如果这种类型的变量调用了方法或者属性，那么这种类型就不再是基本类型，而是基本包装类型，这个变量也不是普通
+        //变量了，而是基本包装类型对象
+
+        var str = "hello";
+        str = str.replace("ll","hh");
+        console.log(str);
+
+        var num = 10;
+        console.log(num.toString());
+        // console.log(num);
+
+
+        // new 使flag变成了对象
+        var flag = new Boolean(false);
+        // 对象 && true 结果是后边的
+        var result = flag && true;
+        console.log(result);
+        // true && 对象，结果是一个对象，也是后边的
+        result = true && flag;
+        console.log(result);
+    
+
+        var num = 10;//基本类型
+        var num2 = Number("10");//数据类型转换
+        var num3 = new Number("10");//基本包装类型 
+    </script>
+</body>
+</html>
