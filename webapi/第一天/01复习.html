@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [10, 2, 45, 100];
+
+
+        function MyArray() {
+            //实例方法
+            this.mySort = function (arr) {
+                for (var i = 0; i < arr.length; i++) {
+                    for (var j = 0; j < arr.length - 1; j++) {
+                        if (arr[j] > arr[j + 1]) {
+                            var temp = arr[j];
+                            arr[j] = arr[j + 1];
+                            arr[j + 1] = temp;
+                        }
+                    }
+                }
+            }
+        }
+        var myArray = new MyArray();
+        myArray.mySort(arr);
+        console.log(arr);
+
+
+        var dt = new Date();
+        console.log(dt.valueOf());
+
+        var dt2 = new Date(dt.valueOf());
+        console.log(dt2);
+    </script>
+</body>
+
+</html>

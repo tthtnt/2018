@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="显示效果" onclick="f1()">
+    <input type="button" value="开始分离代码" id="btn">
+
+    <script>
+        function f1(){
+            alert("这是一个对话框");
+        }
+
+        function f2(){
+            alert("分离代码");
+        }
+        var btn = document.getElementById("btn");
+        btn.onclick = f2;
+    </script>
+</body>
+</html>

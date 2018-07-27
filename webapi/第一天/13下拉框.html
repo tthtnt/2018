@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="點菜" id="btn">
+    <select name="" id="ss">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4" id="op1">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <script>
+        function my$(id){
+            return document.getElementById(id);
+        }
+        my$("btn").onclick = function(){
+            my$("op1").selected = true;
+        }
+    </script>
+
+    <textarea name="" id="tt" cols="30" rows="10" readonly>
+        123
+        123234
+        32523
+        567856
+    </textarea>
+
+    <input type="button" value="注册" name="" id="btn1">
+    <script>
+        my$("btn1").onclick = function(){
+            my$("tt").value = "gaga";//推荐用value
+            // my$("tt").innerText = "gaga";
+        }
+    
+    </script>
+</body>
+</html>
