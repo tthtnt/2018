@@ -77,10 +77,13 @@
 <p id="des">选择一个图片</p>
 <script src="../common.js"></script>
 <script>
-    var aObjs = my$("imagegallery").getElementsByTagName("a");
-    for(var i = 0;i < aObjs.length;i++){
+    let aObjs = my$("imagegallery").getElementsByTagName("a");
+    for(let i = 0;i < aObjs.length;i++){
         aObjs[i].onclick = function(){
-            
+            my$("image").src=this.href;
+            my$("des").innerText = this.title;
+            //阻止超链接默认跳转的功能
+            return false;
         }
     }
 
