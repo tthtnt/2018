@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div{
+        width: 300px;
+        height: 200px;
+        border: 2px dotted red;
+    }
+        
+        </style>
+</head>
+<body>
+    <input type="button" value="显示效果" id="btn">
+    <div id="dv">
+        哈哈
+        <p>这是一个p</p>
+    </div>
+    <script src="../common.js"></script>
+    <script>
+        // innerHTML主要的内容是在标签中设置新的html的内容，是有标签效果的
+    //设置
+        my$("btn").onclick = function(){
+            my$("dv").innerText = "<p>这是一个p</p>";
+        } 
+        my$("btn").onclick = function(){
+            my$("dv").innerHTML = "<p>这是一个p</p>";
+        }    
+        my$("btn").onclick = function(){
+            my$("dv").innerHTML = "haha";
+        } 
+    //获取
+    
+    
+    </script>
+</body>
+</html>
