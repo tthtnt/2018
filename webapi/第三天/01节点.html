@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dv">
+        <p>aaa</p>
+        <span>aaa</span>
+        <ul id="uu">
+            <li>乔峰</li>
+            <li>鹿茸</li>
+            <li id="three">段誉</li>
+            <li>卡卡西</li>
+            <li>雏田</li>
+        </ul>
+    </div>
+    <script src="../common.js"></script>
+    <script>
+        //节点：页面中所有内容（标签，属性，文本（文字，换行，空格，回车），)node
+        //根元素：html
+        //元素：页面中所有的标签，元素-----element,标签----元素----对象
+        //文档：document
+        var ulObj = my$("uu"); 
+        //ul 的父级几点
+        console.log(ulObj.parentNode);
+        //ul 的父级元素
+        console.log(ulObj.parentElement);
+    </script>
+</body>
+</html>
