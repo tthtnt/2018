@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 50px;
+            /*background-color: palegoldenrod;*/
+            border: 1px dashed pink;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="创建p" id="btn">
+<div id="dv"></div>
+<script src="../common.js"></script>
+<script>
+    my$("btn").onclick = function () {
+        var pObj = document.createElement("p");
+        setInnerText(pObj,"哈哈哈哈");
+        my$("dv").appendChild(pObj);
+    }
+</script>
+</body>
+</html>

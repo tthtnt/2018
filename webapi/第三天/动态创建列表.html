@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="来个列表" id="btn">
+<div id="dv"></div>
+<script src="../common.js"></script>
+<script>
+    my$("btn").onclick = function () {
+        // document.body.innerHTML = "<p>这是p</p>";
+        // my$("dv").innerHTML = "<img src='' alt='enen'>";
+        var str = "<ul>";
+            for (var i = 0; i < names.length; i++) {
+                str += "<li>"+ names[i]+"</li>"
+            }
+        str += "</ul>";
+        my$("dv").innerHTML = str;
+
+        var list = my$("dv").getElementsByTagName("li");
+        for (var i = 0;i < list.length;i++){
+            list[i].onmouseover = function () {
+                this.style.backgroundColor = "yellow";
+            }
+            list[i].onmouseout = function () {
+                this.style.backgroundColor = "";
+            }
+        }
+    };
+    var names = ["1","2","3","4","5"];
+</script>
+</body>
+</html>

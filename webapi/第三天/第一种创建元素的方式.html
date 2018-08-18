@@ -6,10 +6,20 @@
 </head>
 <body>
 <input type="button" value="创建一个p" id="btn">
+<div id="dv">
+    窗前明月光
+</div>
 <script src="../common.js"></script>
 <script>
+    // document.write("<p>这是一个p标签</p>");
     my$("btn").onclick = function () {
-        document.write("<p>这是一个p标签</p>");
+        // document.write("<p>这是一个p标签</p>");
+        //document.write() 创建元素，缺陷：如果是在页面加载完毕后，此时通过这种方式创建元素，那么页面上存在的全部内容就会被覆盖
+        //head标签里面的内容也会没有
+        //页面加载的时候通过这种方式创建元素，不会福覆盖掉原来的内容
+        //页面加载的时候通过这种方式创建元素，不会福覆盖掉原来的内容
+        my$("dv").innerHTML = "<p>这是一个p标签</p>";
+        //innerHtml 会覆盖原有的内容
     }
 </script>
 </body>

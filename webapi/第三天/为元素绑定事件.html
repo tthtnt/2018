@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<div id="dv">
+
+</div>
+<script src="../common.js"></script>
+<script>
+    //1.对象.addEventListener
+    // my$("btn").addEventListener("click",function () {
+    //     console.log("我好帅啊");
+    // },false);
+    // my$("btn").addEventListener("click",function () {
+    //     console.log("我好帅啊1");
+    // },false);
+    // my$("btn").addEventListener("click",function () {
+    //     console.log("我好帅啊2");
+    // },false);
+    // my$("btn").addEventListener("click",function () {
+    //     console.log("我好帅啊3");
+    // },false);
+
+    //2.对象.attachEvent(有"on"的事件类型) IE8事件处理函数
+    // my$("btn").attachEvent("onclick",function () {
+    //
+    // })
+
+    function addEventListener(element, type, fn) {
+        if (element.addEventListener){
+            element.addEventListener(type,fn, false);
+        }else if (element.attachEvent) {
+            element.attachEvent("on"+type,fn);
+        }else {
+            element["on"+type];
+        }
+    };
+    addEventListener(my$("btn"),"click",function () {
+        console.log("哦");
+    });
+    addEventListener(my$("btn"),"click",function () {
+        console.log("哦1");
+    });
+    addEventListener(my$("btn"),"click",function () {
+        console.log("哦2");
+    });
+</script>
+</body>
+</html>
