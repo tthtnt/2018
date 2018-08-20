@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度</title>
+    <style>
+        #dv{
+            width: 173px;
+            border: 1px solid palegreen;
+        }
+        #dv p{
+            margin: 0;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <input type="text" placeholder="请输入搜索内容" id="text">
+    <input type="button" value="搜索">
+</div>
+<script src="../common.js"></script>
+<script>
+    var keyWords = ["老高最帅","老端最帅","阿香最帅"];
+    my$("text").onkeyup = function () {
+        if (my$("dv")){
+            my$("box").removeChild(my$("dv"));
+        }
+        var temp = [];
+        var text = this.value;
+        for (var i = 0;i < keyWords.length;i++){
+            if (keyWords[i].indexOf(text) == 0) {
+                temp.push(keyWords[i]);
+            }
+        }
+
+        if (this.value.length == "" || temp.length == 0){
+            if (my$("dv")){
+                my$("box").removeChild(my$("dv"));
+            }
+            return;
+        }
+        var dvObj = document.createElement("div");
+        my$("box").appendChild(dvObj);
+        dvObj.id = "dv";
+        for (var i = 0; i < temp.length;i++){
+            var pObj = document.createElement("p");
+            my$("dv").appendChild(pObj);
+            setInnerText(pObj,temp[i]);
+            pObj.onmouseover = mouseOver;
+            pObj.onmouseout = mouseOut;
+            
+        }
+    }
+    function mouseOver() {
+        this.style.backgroundColor = "yellow";
+    }
+    function mouseOut() {
+        this.style.backgroundColor = "";
+    }
+
+</script>
+</body>
+</html>

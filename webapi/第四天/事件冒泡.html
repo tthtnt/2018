@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dv1{
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+        }
+        #dv2{
+            width: 250px;
+            height: 150px;
+            background-color: palegoldenrod;
+        }
+        #dv3{
+            width: 200px;
+            height: 100px;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+<div id="dv1">
+    <div id="dv2">
+        <div id="dv3"></div>
+    </div>
+</div>
+<script src="../common.js"></script>
+<script>
+    // my$("dv1").onclick = function () {
+    //     console.log(this.id);
+    // };
+    // my$("dv2").onclick = function () {
+    //     console.log(this.id);
+    // };
+    // my$("dv3").onclick = function (e) {
+    //     console.log(this.id);
+    //     window.event.cancelBubble = true;
+    //     //谷歌和IE支持，火狐不支持
+    //     e.stopPropagation();
+    //     //谷歌，火狐支持，原因是IE8不支持e
+    //     //差一个兼容代码
+    // }
+
+    var objs = [my$("dv3"),my$("dv2"),my$("dv1")];
+
+    objs.forEach(function (ele) {
+        ele.addEventListener("click",function (e) {
+            console.log(this.id+"事件状态："+e.eventPhase);
+        },true);
+        //第三个参数控制事件阶段
+        //true 是事件捕获
+        //false 是事件冒泡
+        //事件捕获和事件冒泡不能同时发生
+    })
+
+    //1、事件捕获阶段：从外向内
+    //2、事件目标阶段
+    //3、事件冒泡阶段：从里向外
+    //window.event.cancelBubble = true;阻止事件冒泡
+</script>
+</body>
+</html>
