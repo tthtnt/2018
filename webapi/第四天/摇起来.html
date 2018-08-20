@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dv{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            overflow: hidden;
+        }
+        #dv div{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        #dv div:nth-child(1){
+            background-color: palegoldenrod;
+        }
+        #dv div:nth-child(2){
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="摇起来" id="btn1">
+<input type="button" value="停止" id="btn2">
+<div id="dv">
+    <div></div>
+    <div></div>
+</div>
+<script src="../common.js"></script>
+<script>
+    var yao;
+    my$("btn1").onclick = function () {
+        if (!yao) {
+            yao = setInterval(function () {
+                var x = parseInt(Math.random()*100 + 1);
+                var y = parseInt(Math.random()*100 + 1);
+                my$("dv").style.left = x + "px";
+                my$("dv").style.top = y + "px";
+            },10);
+        }
+    };
+    my$("btn2").onclick = function () {
+        clearInterval(yao);
+        yao = "";
+    }
+</script>
+</body>
+</html>
