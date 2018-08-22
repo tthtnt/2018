@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            border: solid palegreen;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="滑动动画" id="btn">
+<div id="dv">
+    内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊
+    内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊
+    内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊
+    内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊
+    内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊内容一定要长啊
+</div>
+<script src="../common.js"></script>
+<script>
+    my$("btn").onclick = function(){
+        var timeId = setInterval(function () {
+            var top = my$("dv").scrollTop;
+            var step = -10;
+            top += step;
+            if (top <= 0){
+                top = 0;
+                clearInterval(timeId);
+            }
+            my$("dv").scrollTop = top;
+        },20);
+
+    };
+    my$("dv").onscroll = function () {
+        console.log("被拉动了");
+    }
+</script>
+</body>
+</html>

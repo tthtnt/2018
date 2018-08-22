@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dv{
+            width: 150px;
+            height: 100px;
+            background-color: palegreen;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="移动400" id="btn">
+<input type="button" value="移动800" id="btn1">
+<div id="dv">
+
+</div>
+<script src="../common.js"></script>
+<script>
+    var json = {
+        "width":300,
+        "height":400,
+        "left":200,
+        "top":80
+    };
+    my$("btn").onclick = function(){
+        changeAnimate(my$("dv"),json,function () {
+            var json2 = {
+                "width":200,
+                "height":100,
+                "left":500,
+                "top":20
+            };
+            changeAnimate(my$("dv"),json2);
+        });
+    };
+    my$("btn1").onclick = function(){
+        changeAnimate(my$("dv"),"width",800);
+    };
+</script>
+</body>
+</html>
