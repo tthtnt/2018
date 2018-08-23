@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            position: absolute;
+
+        }
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+<img src="tianshi.gif" alt="" id="im">
+
+<script src="../common.js"></script>
+<script>
+    //文档的鼠标移动事件
+    document.onmousemove = function (e) {
+        var event = e || window.event;
+        my$("im").style.left = event.pageX+"px";
+        my$("im").style.top = event.pageY+"px";
+    }
+</script>
+</body>
+</html>

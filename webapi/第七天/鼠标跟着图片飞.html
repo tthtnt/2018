@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            position: absolute;
+
+        }
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+<img src="tianshi.gif" alt="" id="im">
+
+<script src="../common.js"></script>
+<script>
+    var evt = {
+        getEvent:function (e) {
+            return window.event || e;
+        },
+        getClientX:function (e) {
+            return this.getEvent(e).clientX;
+        },
+        getClientY:function (e) {
+            return this.getEvent(e).clientY;
+        },
+        getScrollLeft:function () {
+            return window.pageXOffset||document.body.scrollLeft||document.documentElement.scrollLeft||0;
+        },
+        getScrollTop:function () {
+            return window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop||0;
+        },
+        //相对于页面的横坐标
+        getPageX:function (e) {
+            return this.getEvent(e).pageX?this.getEvent(e).pageX:this.getClientX(e)+this.getScrollLeft();
+        },
+        //相对于页面的纵坐标
+        getPageY:function (e) {
+            return this.getEvent(e).pageY?this.getEvent(e).pageY:this.getClientY(e)+this.getScrollTop();
+        },
+    };
+    //文档的鼠标移动事件
+    document.onmousemove = function (e) {
+
+        my$("im").style.left = evt.getPageX(e)+"px";
+        my$("im").style.top = evt.getPageY(e)+"px";
+    };
+    function getScroll() {
+        return {
+            left:window.pageXOffset||document.body.scrollLeft||document.documentElement.scrollLeft||0,
+            top:window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop||0
+        }
+    }
+</script>
+</body>
+</html>
