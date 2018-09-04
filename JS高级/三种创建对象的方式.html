@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三种创建对象的方式</title>
+</head>
+<body>
+<script>
+    var per1 = {
+        name:"卡卡西",
+        age:20,
+        sex:"男",
+        eat:function () {
+            console.log("卡卡西喜欢吃什么东西呢？");
+        }
+    }
+
+    var per2 = new Object();
+    per2.name = "大蛇丸";
+    per2.age = 30;
+    per2.sex = "男";
+    per2.play = function () {
+        console.log("大蛇丸当然是喜欢玩蛇啦");
+    }
+
+
+
+    function Person(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.like = function () {
+            console.log("喜欢谁呢？");
+        }
+    }
+    var per3 = new Person("鸣人",15,"男");
+    console.log(per1,per2,per3);
+
+</script>
+
+</body>
+</html>
