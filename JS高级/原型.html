@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: palegreen;
+        }
+
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="显示效果">
+<div id="dv">
+
+</div>
+<script>
+
+    function my$(id) {
+        return document.getElementById(id);
+    }
+
+    function ChangeStyle(btnObj, dvObj, json) {
+        this.btnObj = btnObj;
+        this.dvObj = dvObj;
+        this.json = json;
+    }
+
+    ChangeStyle.prototype.init = function () {
+        var that = this;
+        this.btnObj.onclick = function () {
+            for (let key in that.json){
+                that.dvObj.style[key] = that.json[key];
+            }
+        }
+    }
+    let cs = new ChangeStyle(my$("btn"),my$("dv"),{"width":"500px","height":"600px","backgroundColor":"blue","opacity":".6"});
+    cs.init();
+</script>
+</body>
+</html>

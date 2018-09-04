@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function Student(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+    Student.prototype = {
+        height:188,
+        weight:"55kg",
+        study:function () {
+            console.log("学习好开心啊");
+        },
+        eat:function () {
+            console.log("想吃好吃的");
+        }
+    }
+    let stu = new Student("刘思杰",25,"男");
+    stu.eat();
+    stu.study();
+    console.log(stu.height + stu.weight);
+</script>
+</body>
+</html>
