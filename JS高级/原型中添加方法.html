@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //可以在原型中互相调用方法
+    function Student(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+    Student.prototype.eat = function () {
+        console.log("吃点什么");
+        this.play();
+    };
+    Student.prototype.play = function () {
+        console.log("play");
+        this.sleep();
+    };
+    Student.prototype.sleep = function () {
+        console.log("sleep");
+    };
+    var stu = new Student("ajie",22,"nan");
+    stu.eat();
+</script>
+</body>
+</html>
