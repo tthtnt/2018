@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="JS高级第一天">
-      <change afterPath="$PROJECT_DIR$/JS高级/一次性函数自调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/原型中添加方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/原型添加方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/简单原型语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/随机小方块.html" afterDir="false" />
+    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="JS高级第一天结束！">
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,140 +18,68 @@
     <session id="-1559552601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="5" />
+          <entry key="project.open.time.19" value="6" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="67" />
+          <entry key="html" value="68" />
           <entry key="jpg" value="1" />
           <entry key="js" value="7" />
-          <entry key="ts" value="3" />
+          <entry key="ts" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="67" />
+          <entry key="HTML" value="68" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="7" />
-          <entry key="TypeScript" value="3" />
+          <entry key="TypeScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="21837" />
+          <entry key="html" value="25295" />
           <entry key="js" value="719" />
-          <entry key="txt" value="35" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="21837" />
+          <entry key="HTML" value="25295" />
           <entry key="JavaScript" value="719" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapi/第六天/04固定导航栏案例/固定导航栏案例.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/简单原型语法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/原型中添加方法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/原型添加方法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/一次性函数自调用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS高级/随机小方块.html">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1307">
-              <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapi/第七天/08高清放大镜案例/高清放大镜.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapi/第七天/09div的滚动条.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapi/第七天/10滚动条案例.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="143" column="104" selection-start-line="143" selection-start-column="104" selection-end-line="143" selection-end-column="104" />
+            <state relative-caret-position="314">
+              <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#330#346#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapi/第七天/05案例拖拽的对话框.html">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2934">
-              <caret line="163" column="128" selection-start-line="163" selection-start-column="128" selection-end-line="163" selection-end-column="128" />
+            <state relative-caret-position="18">
+              <caret line="4266" column="4" selection-start-line="4266" selection-start-column="4" selection-end-line="4266" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -176,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webapi/第三天/第一种创建元素的方式.html" />
         <option value="$PROJECT_DIR$/webapi/第三天/动态创建列表.html" />
         <option value="$PROJECT_DIR$/webapi/第三天/第三种元素创建方式.html" />
         <option value="$PROJECT_DIR$/webapi/第三天/创建列表.html" />
@@ -227,6 +150,7 @@
         <option value="$PROJECT_DIR$/JS高级/原型添加方法.html" />
         <option value="$PROJECT_DIR$/JS高级/一次性函数自调用.html" />
         <option value="$PROJECT_DIR$/JS高级/随机小方块.html" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" />
       </list>
     </option>
   </component>
@@ -269,6 +193,12 @@
               <item name="2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS高级" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS高级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二天" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2018" type="b2602c69:ProjectViewProjectNode" />
@@ -364,7 +294,8 @@
       <workItem from="1536108054653" duration="440000" />
       <workItem from="1536114799385" duration="516000" />
       <workItem from="1536376322237" duration="1309000" />
-      <workItem from="1536904746175" duration="6056000" />
+      <workItem from="1536904746175" duration="6605000" />
+      <workItem from="1536975860455" duration="17985000" />
     </task>
     <task id="LOCAL-00001" summary="第二天上午">
       <created>1532750395865</created>
@@ -415,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536053430757</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JS高级第一天结束！">
+      <created>1536916951154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536916951154</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112294000" />
+    <option name="totallyTimeSpent" value="130828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -457,16 +395,10 @@
     <MESSAGE value="第六天中断" />
     <MESSAGE value="第七天结束" />
     <MESSAGE value="JS高级第一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS高级第一天" />
+    <MESSAGE value="JS高级第一天结束！" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS高级第一天结束！" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapi/第三天/只创建一个元素.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapi/第三天/第一种创建元素的方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -492,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8515" column="4" selection-start-line="8515" selection-start-column="4" selection-end-line="8515" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -733,10 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第七天/08高清放大镜案例/高清放大镜.html">
+    <entry file="file://$PROJECT_DIR$/webapi/第六天/04固定导航栏案例/固定导航栏案例.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+        <state relative-caret-position="846">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -764,31 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第六天/04固定导航栏案例/固定导航栏案例.html">
+    <entry file="file://$PROJECT_DIR$/JS高级/随机小方块.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/简单原型语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/原型中添加方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/原型添加方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="353">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -799,10 +703,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/随机小方块.html">
+    <entry file="file://$PROJECT_DIR$/JS高级/原型添加方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1307">
-          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        <state relative-caret-position="216">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/原型中添加方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/简单原型语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/第七天/08高清放大镜案例/高清放大镜.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4266" column="4" selection-start-line="4266" selection-start-column="4" selection-end-line="4266" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding>
+            <element signature="e#330#346#0" />
+          </folding>
         </state>
       </provider>
     </entry>
