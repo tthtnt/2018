@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="JS高级第一天结束！">
-      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" afterDir="false" />
+    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="贪吃蛇开始移动">
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/snake.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/贪吃蛇案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/snake.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/贪吃蛇案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,59 +28,120 @@
     <session id="-1559552601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="6" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="68" />
+          <entry key="html" value="70" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="14" />
           <entry key="ts" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="68" />
+          <entry key="HTML" value="70" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="14" />
           <entry key="TypeScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="25295" />
-          <entry key="js" value="719" />
-          <entry key="txt" value="38" />
+          <entry key="html" value="26044" />
+          <entry key="js" value="4308" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="25295" />
-          <entry key="JavaScript" value="719" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="HTML" value="26044" />
+          <entry key="JavaScript" value="4308" />
+          <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/贪吃蛇案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-              <folding>
-                <element signature="e#330#346#0" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/贪吃蛇案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/snake.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/snake.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/food.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/food.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -90,6 +161,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,14 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webapi/第三天/动态创建列表.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/第三种元素创建方式.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/创建列表.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/动态创建表格.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/元素相关的操作方法.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/只创建一个元素.html" />
-        <option value="$PROJECT_DIR$/webapi/第三天/为元素绑定事件.html" />
-        <option value="$PROJECT_DIR$/webapi/第四天/解绑事件.html" />
         <option value="$PROJECT_DIR$/webapi/第四天/事件冒泡.html" />
         <option value="$PROJECT_DIR$/webapi/第四天/为同一个元素注册多个不同的事件.html" />
         <option value="$PROJECT_DIR$/webapi/第四天/百度项目.html" />
@@ -151,6 +215,14 @@
         <option value="$PROJECT_DIR$/JS高级/一次性函数自调用.html" />
         <option value="$PROJECT_DIR$/JS高级/随机小方块.html" />
         <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/food.js" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/贪吃蛇案例.html" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/game.js" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/贪吃蛇案例.html" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/food.js" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/snake.js" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/snake.js" />
+        <option value="$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/game.js" />
       </list>
     </option>
   </component>
@@ -182,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +272,27 @@
               <item name="2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS高级" type="462c0819:PsiDirectoryNode" />
               <item name="第二天" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS高级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二天" type="462c0819:PsiDirectoryNode" />
+              <item name="贪吃蛇案例" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS高级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二天" type="462c0819:PsiDirectoryNode" />
+              <item name="贪吃蛇自测" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS高级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二天" type="462c0819:PsiDirectoryNode" />
+              <item name="贪吃蛇重构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2018" type="b2602c69:ProjectViewProjectNode" />
@@ -222,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,6 +338,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\2018\JS高级\第二天\贪吃蛇重构" />
+      <recent name="D:\git\2018\JS高级\第二天\贪吃蛇案例" />
       <recent name="D:\git\2018\webapi\第七天" />
       <recent name="D:\git\2018\webapi\第六天" />
       <recent name="D:\git\2018\webapi\第五天" />
@@ -295,7 +390,8 @@
       <workItem from="1536114799385" duration="516000" />
       <workItem from="1536376322237" duration="1309000" />
       <workItem from="1536904746175" duration="6605000" />
-      <workItem from="1536975860455" duration="17985000" />
+      <workItem from="1536975860455" duration="18140000" />
+      <workItem from="1537145448451" duration="17008000" />
     </task>
     <task id="LOCAL-00001" summary="第二天上午">
       <created>1532750395865</created>
@@ -353,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536916951154</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="贪吃蛇开始移动">
+      <created>1537003800166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537003800166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130828000" />
+    <option name="totallyTimeSpent" value="147991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +479,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,65 +499,10 @@
     <MESSAGE value="第七天结束" />
     <MESSAGE value="JS高级第一天" />
     <MESSAGE value="JS高级第一天结束！" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS高级第一天结束！" />
+    <MESSAGE value="贪吃蛇开始移动" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪吃蛇开始移动" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapi/第三天/第一种创建元素的方式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第三天/为元素绑定事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第四天/事件冒泡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第四天/为同一个元素注册多个不同的事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第四天/解绑事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第五天/渐变.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第五天/阅读协议.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第四天/navigator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapi/第四天/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -676,9 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="143" column="104" selection-start-line="143" selection-start-column="104" selection-end-line="143" selection-end-column="104" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,11 +785,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇案例/贪吃蛇案例.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-          <folding>
-            <element signature="e#330#346#0" />
-          </folding>
+        <state relative-caret-position="746">
+          <caret line="140" column="40" lean-forward="true" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/food.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/food.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/snake.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/snake.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/贪吃蛇案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/贪吃蛇案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇重构/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第二天/贪吃蛇自测/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
