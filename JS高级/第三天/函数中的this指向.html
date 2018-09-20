@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数中的this指向</title>
+</head>
+<body>
+<script>
+    //普通函数
+    // function f1() {
+    //     console.log(this);
+    // }
+    // f1();
+
+    //定时器方法
+    // setInterval(function () {
+    //     console.log(this);
+    // },2000);
+
+    //对象方法
+    // function Person() {
+    //     console.log(this);
+    //     this.sayHi = function () {
+    //         console.log(this);
+    //     }
+    // }
+    // var per = new Person();
+    // per.sayHi();
+
+    //原型对象方法
+    function Person() {}
+    Person.prototype.sayHi = function () {
+        console.log(this);
+    };
+    var per = new Person();
+    per.sayHi();
+</script>
+</body>
+</html>

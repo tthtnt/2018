@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(age) {
+        this.age = age;
+    }
+
+    Person.prototype = {
+        eat:function () {
+            console.log("chi");
+        }
+    };
+    Person.prototype.sayHi = function () {
+        console.log("haha");
+    };
+    var per = new Person(10);
+    console.log(per);
+</script>
+</body>
+</html>
