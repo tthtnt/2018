@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f1(x, y) {
+        console.log(x+y + "======>" + this);
+    }
+
+    //bind方法是复制的意思，参数可以在复制的时候传进去，也可以在复制之后传进去
+    // var ff = f1.bind(null);
+    // ff(10,20);
+    //apply 和 call 是调用的时候改变this指向
+    //bind是复制的时候改变this指向
+    function Person(age) {
+        this.age = age;
+    }
+    Person.prototype.play = function () {
+        console.log("play:=======>"+this.age);
+    };
+    function Student(age) {
+        this.age = age;
+    }
+    var per = new Person(10);
+    var stu = new Student(20);
+    var ff = per.play.bind(stu);
+    ff();
+</script>
+</body>
+</html>
