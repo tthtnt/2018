@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="第四天开始">
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/bind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/bind应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/函数作为参数使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/函数作为参数使用案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/函数作为返回值练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/沙箱案例二.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/递归.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/闭包案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第四天/闭包案例二.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/浅拷贝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/深拷贝.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,93 +68,57 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/apply和call.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="摇起来.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapi/第四天/摇起来.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="百度项目.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapi/第四天/百度项目.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/bind.html">
+      <file leaf-file-name="浅拷贝.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/浅拷贝.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="432">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/bind应用.html">
+      <file leaf-file-name="深拷贝.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/深拷贝.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/函数作为参数使用.html">
+      <file leaf-file-name="05遍历DOM树.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/函数作为参数使用案例.html">
+      <file leaf-file-name="正则表达式开始.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/函数作为返回值练习.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/闭包案例.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/闭包案例二.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/沙箱案例二.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS高级/第四天/递归.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="783">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -180,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webapi/第六天/06筋斗云案例/筋斗云案例.html" />
-        <option value="$PROJECT_DIR$/webapi/第六天/获取元素计算后的样式属性值.html" />
-        <option value="$PROJECT_DIR$/webapi/第六天/缓动动画封装.html" />
-        <option value="$PROJECT_DIR$/webapi/第六天/12手风琴案例/案例手风琴.html" />
         <option value="$PROJECT_DIR$/webapi/第六天/13开机动画/关机动画.html" />
         <option value="$PROJECT_DIR$/webapi/第六天/15旋转木马案例/旋转木马案例.html" />
         <option value="$PROJECT_DIR$/webapi/第六天/鼠标跟着图片飞.html" />
@@ -231,6 +187,10 @@
         <option value="$PROJECT_DIR$/JS高级/第四天/闭包案例二.html" />
         <option value="$PROJECT_DIR$/JS高级/第四天/沙箱案例二.html" />
         <option value="$PROJECT_DIR$/JS高级/第四天/递归.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/浅拷贝.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/深拷贝.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html" />
       </list>
     </option>
   </component>
@@ -251,11 +211,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="364" />
+    <option name="y" value="5" />
+    <option name="width" value="986" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,25 +241,7 @@
               <item name="2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS高级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四天" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="webapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="第六天" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="第六天" type="462c0819:PsiDirectoryNode" />
-              <item name="04固定导航栏案例" type="462c0819:PsiDirectoryNode" />
+              <item name="第五天" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,25 +256,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="" />
     <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\wamp\www\2018\JS高级\第五天" />
       <recent name="D:\git\2018\JS高级\第二天\贪吃蛇重构" />
       <recent name="D:\git\2018\JS高级\第二天\贪吃蛇案例" />
       <recent name="D:\git\2018\webapi\第七天" />
       <recent name="D:\git\2018\webapi\第六天" />
-      <recent name="D:\git\2018\webapi\第五天" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,6 +330,7 @@
       <workItem from="1537232112626" duration="52000" />
       <workItem from="1537409610526" duration="10552000" />
       <workItem from="1537492468618" duration="10565000" />
+      <workItem from="1537616033212" duration="5714000" />
     </task>
     <task id="LOCAL-00001" summary="第二天上午">
       <created>1532750395865</created>
@@ -471,29 +420,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169783000" />
+    <option name="totallyTimeSpent" value="176107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16332982" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16331924" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,30 +464,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第四天开始" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapi/第六天/15旋转木马案例/css/css.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第六天/15旋转木马案例/旋转木马案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第六天/鼠标跟着图片飞.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第六天/13开机动画/关机动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapi/第七天/鼠标跟着图片飞.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -866,6 +790,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/浅拷贝.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/深拷贝.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
         </state>
       </provider>
     </entry>
