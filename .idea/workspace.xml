@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="第四天开始">
-      <change afterPath="$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第五天/浅拷贝.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS高级/第五天/深拷贝.html" afterDir="false" />
+    <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/创建正则表达式对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS高级/第五天/正则表达式练习.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -108,17 +106,35 @@
       <file leaf-file-name="05遍历DOM树.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="1539">
               <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="正则表达式开始.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="正则表达式开始.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="783">
               <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="正则表达式练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/正则表达式练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="创建正则表达式对象.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS高级/第五天/创建正则表达式对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webapi/第六天/13开机动画/关机动画.html" />
-        <option value="$PROJECT_DIR$/webapi/第六天/15旋转木马案例/旋转木马案例.html" />
         <option value="$PROJECT_DIR$/webapi/第六天/鼠标跟着图片飞.html" />
         <option value="$PROJECT_DIR$/webapi/第七天/鼠标跟着图片飞.html" />
         <option value="$PROJECT_DIR$/webapi/第七天/08高清放大镜案例/高清放大镜.html" />
@@ -191,6 +205,8 @@
         <option value="$PROJECT_DIR$/JS高级/第五天/深拷贝.html" />
         <option value="$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html" />
         <option value="$PROJECT_DIR$/JS高级/第五天/正则表达式开始.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/正则表达式练习.html" />
+        <option value="$PROJECT_DIR$/JS高级/第五天/创建正则表达式对象.html" />
       </list>
     </option>
   </component>
@@ -331,6 +347,8 @@
       <workItem from="1537409610526" duration="10552000" />
       <workItem from="1537492468618" duration="10565000" />
       <workItem from="1537616033212" duration="5714000" />
+      <workItem from="1537832355785" duration="55000" />
+      <workItem from="1537872486251" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="第二天上午">
       <created>1532750395865</created>
@@ -416,14 +434,22 @@
       <option name="project" value="LOCAL" />
       <updated>1537435266637</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="元字符开始">
+      <created>1537832387330</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1537832387330</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176107000" />
+    <option name="totallyTimeSpent" value="180040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16331924" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,23 +487,10 @@
     <MESSAGE value="贪吃蛇结束" />
     <MESSAGE value="第三天结束" />
     <MESSAGE value="第四天开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四天开始" />
+    <MESSAGE value="元字符开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="元字符开始" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapi/第七天/鼠标跟着图片飞.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapi/第七天/14案例大量字符串拼接效果实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS高级/三种创建对象的方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -809,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS高级/第五天/05遍历DOM树.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="1539">
           <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
         </state>
       </provider>
@@ -818,6 +831,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/正则表达式练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/第五天/创建正则表达式对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
