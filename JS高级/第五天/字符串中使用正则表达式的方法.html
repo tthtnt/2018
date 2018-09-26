@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //正则表达式中：g表示的是全局模式匹配
+    //
+    var str = "中国移动10086，中国联通10010，中国电信10000";
+    //
+    // //把里面所有数组全部显示出来
+    // var array = str.match(/\d{5}/g);
+    // console.log(array);
+    //
+
+    // var str = "2017-12-11";
+    // var array = str.match(/(\d{4})[-](\d{2})[-](\d{2})/g);
+    //
+    // //正则表达式对象.$3
+    // console.log(RegExp.$3);
+
+    //去掉所有的空格
+    // var str = "   哈哈哈  ，  哈   ";
+    // str = str.replace(/\s+/g,"");
+    // console.log(str);
+
+
+    //替换字符
+    // var str = "HhhPPH";
+    // var reg = new RegExp(/[h]/gi);
+    // str = str.replace(reg,"S");
+    // //正则表达式 i 表示的是忽略大小写
+    // console.log(str);
+
+    var reg = /\d{5}/g;
+    var array = reg.exec(str);
+    while (array!=null){
+        console.log(array);
+        array = reg.exec(str);
+    }
+</script>
+</body>
+</html>

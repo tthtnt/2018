@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //伪数组和数组的区别
+    //真数组的长度是可变的，伪数组的长度不可变
+    //真数组可以使用数组中的方法
+    //伪数组不可以使用数组的方法
+
+    // function f1() {
+    //     var sum = 0;
+    //     for (var i = 0; i < arguments.length; i++) {
+    //         sum += arguments[i];
+    //     }
+    //     console.log(sum);
+    // }
+    // f1(10,20,30);
+    // //arguments 是伪数组
+
+    function f1() {
+        var sum = 0;
+        console.dir(arguments);
+        // arguments.forEach(function () {
+        //
+        // })
+    }
+    //arguments不能使用数组的方法
+
+    // f1(10,20,30,40);
+    f1(10);
+
+
+    var arr = [10,20,30];
+
+    var obj = {
+        0:10,
+        1:20,
+        2:30,
+        length:3
+    };
+
+    console.log(arr);
+    //遍历数组
+    for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+
+
+</script>
+</body>
+</html>

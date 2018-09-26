@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log(/./.test("除了回车换行以外的任意字符"));//true
+    console.log(/.*/.test("0个到多个"));//true
+    console.log(/.+/.test("1个到多个"));
+    console.log(/.?/.test("0个到1个"));//true
+    console.log(/[0-9]/.test("9527"));//true
+    console.log(/[a-z]/.test("what"));//true
+    console.log(/[A-Z]/.test("Are"));//true
+    console.log(/[a-zA-Z]/.test("干啥子"));//false
+    console.log(/[0-9a-zA-Z]/.test("9ebg"));//true
+    console.log(/b|(ara)/.test("abra"));//true b或者 ara
+    console.log(/[a-z]{2,3}/.test("arsdf"));//true
+</script>
+</body>
+</html>
