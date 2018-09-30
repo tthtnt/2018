@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    window.onload = function () {
+        console.log("今天天气正好");
+        $("#btn").click(function () {
+            console.log("你说的都对");
+        });
+    };
+    //window.onload只会执行一次
+    window.onload = function () {
+        console.log("hahah");
+    };
+    //$(window).load()  jQuery 中第一种页面加载事件
+    $(window).load(function () {
+        console.log("hahah");
+    });
+    $(window).load(function () {
+        console.log("你说的都对");
+    });
+    //jQuery 中的第二种页面加载事件 比上面的快 页面中的基本元素加载后就触发
+    $(document).ready(function () {
+        console.log("你说的都对ready");
+    });
+
+    //jQuery中第三种页面加载方式 真正的jQuery方法 也是页面中的基本元素加载后触发
+    jQuery(function () {
+        console.log("1111");
+    });
+    //jQuery中第四种页面加载方式
+    $(function () {
+        console.log("2222");
+    })
+
+</script>
+</body>
+</html>

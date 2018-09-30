@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<input type="button" value="按钮" id="btn1">
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    //jQuery中的顶级对象：jQuery -----可以用$符号来代替
+    //jQueryheDOM互转
+    //DOM获取的DOM对象
+    var btnObj1 = document.getElementById("btn");
+    //如何把DOM对象转换成jQuery对象
+    $(btnObj1).click(function () {
+       alert("哈哈哈，帅啊");
+    });
+
+    //jQuery 对象
+    var btnObj2 = $("#btn1");
+    //jQuery 转 DOM 对象 ------》 jQuery[0]  就变成了DOM对象
+    btnObj2[0].onclick = function () {
+      alert("哈哈哈哈哈，帅的不行");
+    };
+</script>
+</body>
+</html>
