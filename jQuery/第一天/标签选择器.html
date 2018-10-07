@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<p>哈哈</p>
+<p>哈哈</p>
+<p>哈哈</p>
+<p>哈哈</p>
+<p>哈哈</p>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            this.value = "哈哈哈哈";
+            $(this).val("再哈哈哈");
+            $("p").text("我们都是p");
+        });
+    });
+</script>
+</body>
+</html>

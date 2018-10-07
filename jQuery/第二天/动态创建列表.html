@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 600px;
+            border: 2px dotted orangered;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        /*
+        * 内置对象：js中自带的对象，Array Object Date Math RegExp
+        * 浏览器对象：window
+        * 自定义对象：自己定义的构造函数创建的对象
+        * DOM对象：通过DOM方式获取的对象
+        * jQuery对象：通过jQuery方式获取的对象
+        *
+        *
+        * */
+        $(function () {
+            var array = ["laoa","shfhsl","sfkhxv","dglbicox"];
+            $("#btn").click(function () {
+                let ulObj = $("<ul style='list-style: none;cursor:pointer;'></ul>");
+                $("#dv").append(ulObj);
+                //创建li标签，加入到ul中
+                for (var i = 0; i < array.length; i++) {
+                    $("<li>"+array[i]+"</li>").appendTo(ulObj).mouseenter(function () {
+                        $(this).css("backgroundColor","darkgreen");
+                    }).mouseleave(function () {
+                        $(this).css("backgroundColor","");
+                    });
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<div id="dv">
+
+</div>
+</body>
+</html>

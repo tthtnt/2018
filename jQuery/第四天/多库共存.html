@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            var xy = $.noConflict();
+            xy(function () {
+                xy("#btn").click(function(){
+                    console.log("哈哈");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+</body>
+</html>

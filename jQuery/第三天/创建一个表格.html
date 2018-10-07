@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 600px;
+            height: 450px;
+            border: 1px solid red;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+
+        var arr = [
+            {"name":"百度","href":"http://www.baidu.com"},
+            {"name":"百度","href":"http://www.baidu.com"},
+            {"name":"百度","href":"http://www.baidu.com"},
+            {"name":"百度","href":"http://www.baidu.com"},
+            {"name":"百度","href":"http://www.baidu.com"}
+            ];
+        $(function () {
+            $("#btn").click(function () {
+                var table = $("<table border='1' cellpadding='0' cellspacing='0' ></table>");
+                $("#dv").append(table);
+                for (var i = 0; i < arr.length; i++) {
+                    var dt = arr[i];
+                    var trObj = $("<tr></tr>");
+                    table.append(trObj);
+                    var td1 = $("<td>"+dt.name+"</td>");
+                    var td2 = $("<td><a href="+dt.href+">"+dt.href+"</a></td>");
+                    // trObj.append(td1);
+                    // trObj.append(td2);
+                    //经过测试，append返回的还是元素本身，所以可以使用链式编程
+                    console.log(trObj.append(td1));
+                    trObj.append(td1).append(td2).mouseenter(function () {
+                        $(this).css("backgroundColor","red");
+                    }).mouseleave(function () {
+                        $(this).css("backgroundColor","");
+                    });
+                }
+            });
+            $("#btn2").click(function () {
+                //当前这个元素的下一个兄弟元素，点击后empty
+                // $(this).next().empty();
+
+                $("#dv").children("table").remove();
+            });
+            $("#btn3").click(function () {
+                var tr = $("<tr><td>腾讯</td><td><a href='http://www.QQ.com'>www.QQ.com</a></td></tr>");
+                $("#dv").find("table").append(tr);
+            });
+        });
+    </script>
+</head>
+
+<body>
+<input type="button" value="添加表格" id="btn">
+<input type="button" value="移除表格" id="btn2">
+<input type="button" value="添加一行" id="btn3">
+<div id="dv"></div>
+</body>
+</html>

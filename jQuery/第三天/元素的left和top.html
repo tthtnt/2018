@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: palegreen;
+            margin-top: 30px;
+            position: absolute;
+            left: 100px;
+            top: 200px;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                // console.log($("#dv").offset().top());
+                $("#dv").offset({"left":200,"top":200});
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="button" value="按钮" id="btn">
+    <div id="dv"></div>
+</body>
+</html>

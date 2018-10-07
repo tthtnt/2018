@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: green;
+
+        }
+        p{
+            background-color: orangered;
+            cursor: pointer;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $("<p>这是一个p</p>").appendTo("#dv");
+
+                //方式一  只会绑定现有的p标签
+                // $("p").click(function () {
+                //     alert("哈哈");
+                // });
+
+                //方式二  也只会绑定现有的p标签
+                // $("p").bind("click",function () {
+                //     alert("哈哈");
+                // });
+
+                //方式三 为子元素绑定代理事件  这样在div中的没有p标签都可以执行点击事件
+                // $("#dv").delegate("p","click",function () {
+                //     alert("哈哈");
+                // });
+
+                //方式四 使用on方法，参数顺序是不一样的，但效果和delegate()方法是一样的
+                $("#dv").on("click","p",function () {
+                    alert("P被点击了");
+                })
+            });
+            $("#btn2").click(function () {
+                $("<p>这是一个p</p>").appendTo("#dv");
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<input type="button" value="按钮" id="btn2">
+<div id="dv">
+
+</div>
+</body>
+</html>

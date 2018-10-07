@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            background-color: green;
+            width: 300px;
+            height: 200px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $("#dv").append($("<p>这是一个p标签</p>"));
+                $("#dv").append($("<span>这是一个span标签</span>"));
+                $("#dv").on("click","p",function () {
+                    console.log("p被点击了");
+                }).on("click","span",function(){
+                    console.log("span被点击了");
+                }).on("mouseenter","p",function(){
+                    console.log("p被进入了");
+                })
+            });
+            $("#btn2").click(function () {
+                //解绑所有事件
+                // $("#dv").off();
+                //解绑所有的click事件
+                // $("#dv").off("click");
+                //解绑单一子元素的click事件
+                // $("#dv").off("click","p");
+                //解绑所有子元素的click事件
+                // $("#dv").off("click","**");
+                //解绑一个元素的多个事件
+                $("#dv").off("click mouseenter","p");
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="绑定事件" id="btn">
+<input type="button" value="解绑事件" id="btn2">
+<div id="dv">
+
+</div>
+</body>
+</html>

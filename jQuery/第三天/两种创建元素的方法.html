@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            border: 1px solid red;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                // $("#dv").append($("<input value='按钮' type='button'>"));
+                // $("#dv").html("<input value='按钮' type='button'>");
+
+                //添加到元素的开头
+                // $("#dv").prepend($("<span>这是一个span标签</span>"));
+                // $("<span>这是一个span标签</span>").prependTo($("#dv"));
+
+
+                //after()相当于为div添加兄弟元素 添加到div的后面
+                // $("#dv").after($("<span>这是一个span标签</span>"));
+                //before() 添加到div前面的位置，是div的上一个兄弟元素
+                //$("#dv").before($("<span>这是一个span标签</span>"));
+
+                //从父级元素中移除子级元素
+                // $("#dv").html("");
+                // $("#dv").empty();
+
+                //remove() 想要干掉谁就直接调用这个方法就可以了
+                // $("#dv").remove()
+
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<div id="dv">
+    <p>这是一个p标签</p>
+    <span>这是一个span标签</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            border: 1px solid red;
+            overflow: auto;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                console.log($("#dv").scrollTop());
+                console.log($("#dv").scrollLeft());
+
+            });
+            $("#dv").scroll(function () {
+                console.log($(this).scrollTop());
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<div id="dv">
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+    哈哈哈哈哈，先让你得瑟一会哈哈哈哈哈，然后再弄你哈哈哈哈
+</div>
+</body>
+</html>

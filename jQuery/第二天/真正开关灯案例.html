@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cls{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    // $(function () {
+    //     $("#btn").click(function () {
+    //         if ($("body").hasClass("cls")){
+    //             $(this).val("关灯");
+    //             $("body").removeClass("cls");
+    //         } else {
+    //             $(this).val("开灯");
+    //             $("body").addClass("cls");
+    //         }
+    //     });
+    // });
+
+    //第二种方式
+    $(function () {
+        $("#btn").click(function () {
+           $("body").toggleClass("cls");
+        });
+    });
+</script>
+<input type="button" value="关灯" id="btn">
+</body>
+</html>

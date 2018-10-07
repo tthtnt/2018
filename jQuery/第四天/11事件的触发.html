@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            //文本框获取焦点的事件
+            $("#txt").focus(function () {
+                console.log("我的获取焦点事件触发了");
+                $(this).next("span").text("文本框焦点被触发了");
+            });
+            $("#btn").click(function () {
+                //前两种可以触发浏览器默认事件
+                // $("#txt").focus();
+                // $("#txt").trigger("focus");
+
+                //这一种可以出发事件但是不能触发浏览器默认的行为
+                $("#txt").triggerHandler("focus");
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="我也要触发文本框的获取焦点的事件" id="btn"/>
+<input type="text" value="" id="txt"/><span id="sp"></span>
+
+</body>
+</html>

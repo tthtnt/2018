@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                // document.getElementById("r3").checked = true;
+
+                // $("#r3")[0].checked = true;
+                // $("#r3").get(0).checked = true;
+
+                //jQuery方式
+                // $("#r3").attr("checked",true);
+                console.log($("#r3").attr("checked"));
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<input type="radio" name="sex" value="1">男
+<input type="radio" name="sex" value="2">女
+<input type="radio" name="sex" value="3" id="r3">人妖
+</body>
+</html>

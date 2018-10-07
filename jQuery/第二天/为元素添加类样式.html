@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cls{
+            width: 300px;
+            height: 200px;
+            background-color: gold;
+        }
+        .cls2{
+            width: 500px;
+            height: 300px;
+            border: 2px solid gainsboro;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            $("#dv").addClass("cls").addClass("cls2");
+            //addClass 可以使用链式编程
+            //removeClass 也可以使用链式编程
+
+            //总结：设置元素样式可以使用css()方法，也可以使用addClass()方法，或者是removeClass()方法
+            
+        });
+    });
+</script>
+<input type="button" value="按钮" id="btn">
+<div id="dv"></div>
+</body>
+</html>

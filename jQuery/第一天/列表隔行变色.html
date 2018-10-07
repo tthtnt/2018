@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<ul id="uu">
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+    <li>乔峰：降龙十八掌</li>
+</ul>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            $("#uu>li:odd").css("backgroundColor","yellow");
+            $("#uu>li:even").css("backgroundColor","red");
+        });
+    });
+</script>
+</body>
+</html>

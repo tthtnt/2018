@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    //animate 参数1：键值对 参数2:时间 参数3：回调函数
+    $(function () {
+        $("#im").animate({"width":"300px","height":"300px","left":"100px","top":"100px"},5000).animate({"width":"30px","height":"30px","left":"10px","top":"10px"},800);
+    });
+</script>
+<img src="images/bird.png" alt="" id="im">
+</body>
+</html>

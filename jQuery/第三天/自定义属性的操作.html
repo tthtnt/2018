@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $("#uu>li").attr("score","100");
+            });
+        });
+        //.attr方法主要是操作元素的自定义属性的，但是也可以操作元素自带的属性，但是：操作元素的选中的checked的时候，不是很合适，推荐使用prop这个方法
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<ul id="uu">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+</html>

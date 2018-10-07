@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        $("#three").click(function () {
+
+            //获取后面的所有兄弟元素
+            $(this).nextAll().css("backgroundColor","red");
+            //获取当前元素前面的所有兄弟元素
+            $(this).prevAll().css("backgroundColor","red");
+            $(this).next().css("backgroundColor","green");
+            $(this).prev().css("backgroundColor","pink");
+
+            //获取当前元素所有的兄弟元素
+            $(this).siblings("li").css("backgroundColor","gray");
+
+        });
+    });
+</script>
+<ul id="uu">
+    <li>哈哈哈</li>
+    <li>嘿嘿</li>
+    <li id="three">吼吼</li>
+    <li>哼哼</li>
+    <li>呼呼</li>
+    <li>呵呵</li>
+    <li>嘻嘻</li>
+    <li>嘎嘎</li>
+</ul>
+</body>
+</html>

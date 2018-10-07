@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <style>
+    div{
+      width: 300px;
+      height: 200px;
+      background-color: red;
+    }
+  </style>
+  <script src="../jquery-1.12.1.js"></script>
+  <script>
+    $(function () {
+      //事件参数对象
+        $("#dv").mousedown(function (e) {
+            //altkey得到用户是否按下ALT键
+            //button得到的是用户鼠标按的左0右2中1哪个键
+            console.log(e.button);
+        })
+    });
+  </script>
+</head>
+<body>
+<div id="dv"></div>
+
+</body>
+</html>

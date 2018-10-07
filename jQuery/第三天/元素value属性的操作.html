@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                // console.log($("#txt").val());
+                // $("#txt").val("今天刮大风啊！");
+                //为select标签中value属性是5的这个option选中
+                $("#se1").val(4);
+                console.log($("#se1").val());
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<input type="text" value="今天天气真好" id="txt"/>
+
+<select id="se1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cls{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+        .cls2{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            if ($("#dv").hasClass("cls")){
+                console.log("应用了");
+            }else {
+                console.log("没有应用")
+            }
+        });
+    });
+
+    //hasClass是判断元素是否应用类样式的
+</script>
+<input type="button" value="按钮" id="btn">
+<div id="dv" class="cls"></div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            background-color: mediumorchid;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    /*
+    * shou和hide方法有参数
+    * 参数1：时间----1000毫秒  时间也可以用单词来表示 slow 600 fast 200 normal 400
+    * 参数2：回调函数-----动画结束后才执行
+    *
+    * slideDown slideUp slideToggle 参数同上
+    * fadeIn fadeOut fadeToggle 参数同上
+    *
+    * fadeTo (第一个参数是时间，第二个参数是透明值，第三个参数是动画效果，第四个参数是回调函数);
+    *
+    * */
+    // $(function () {
+    //     //点击第一个按钮显示div
+    //     $("#btn1").click(function () {
+    //         $("#dv").slideDown();
+    //     });
+    //     //点击第二个按钮隐藏div
+    //     $("#btn2").click(function () {
+    //         $("#dv").slideUp();
+    //     });
+    //     //第三个按钮
+    //     $("#btn3").click(function () {
+    //         $("#dv").slideToggle(500);
+    //     });
+    // });
+    $(function () {
+        //点击第一个按钮显示div
+        $("#btn1").click(function () {
+            $("#dv").fadeIn(500);//淡入
+        });
+        //点击第二个按钮隐藏div
+        $("#btn2").click(function () {
+            $("#dv").fadeOut(500);//淡出
+        });
+        //第三个按钮
+        $("#btn3").click(function () {
+            // $("#dv").fadeToggle(500);
+            $("#dv").fadeTo(2000,0.2);
+        });
+    });
+</script>
+<input type="button" value="显示" id="btn1">
+<input type="button" value="隐藏" id="btn2">
+<input type="button" value="切换" id="btn3">
+<div id="dv"></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../jquery-1.12.1.js"></script>
+<script>
+    $(function () {
+        //对象调用方法，如果返回值还是当前这个对象，那么就可以继续调用这个方法
+        // 经验：一般情况，对象调用方法，这个方法的意思是设置的意思，那么返回的几乎都是当前对象，然后就可以继续链式编程
+        $("#btn").click(function () {
+           $(this).css("backgroundColor","red").val("哈哈").css("width","200px");
+        });
+    });
+</script>
+<input type="button" value="显示效果" id="btn">
+</body>
+</html>
