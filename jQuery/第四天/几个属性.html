@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: gray;
+            border: 5px solid red;
+            margin: 50px;
+            padding: 50px;
+        }
+    </style>
+    <script src="../jquery-1.12.1.js"></script>
+    <script>
+        $(function () {
+            console.log("不带外边距带边框用outerHeight()"+$("#dv").outerHeight());
+            console.log("不带外边距带边框用outerWeight()"+$("#dv").outerWidth());
+            console.log("带外边距用outerHeight(true)"+$("#dv").outerHeight(true));
+            console.log("带外边距用outerWeight(true)"+$("#dv").outerWidth(true));
+            console.log("不带外边距不带边框带内边距用innerHeight()"+$("#dv").innerHeight());
+            console.log("不带外边距不带边框带内边距用innerWeight()"+$("#dv").innerWidth());
+        })
+    </script>
+</head>
+<body>
+<div id="dv"></div>
+</body>
+</html>
