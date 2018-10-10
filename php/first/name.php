@@ -14,17 +14,17 @@
 </head>
 <body>
 <?php
-    $file_path = "names.txt";
-    $contents = file_get_contents($file_path);
-//    echo "<p>$str</p>";
+$file_path = "names.txt";
+$contents = file_get_contents($file_path);
+//    echo "<p>$contents</p>";
 //换行符要用双引号来写，用单引号php会认为是\n字符串
-    $lines = explode("\n",trim($contents));
+$lines = explode("\n",trim($contents));
 //    var_dump($arr);
-    $data = array();
-    foreach ($lines as $item) {
-        $cols = explode("|",$item);
-        $data[] = $cols;
-    }
+$data = array();
+foreach ($lines as $item) {
+    $cols = explode("|",$item);
+    $data[] = $cols;
+}
 ?>
 <h1>全部人员信息表</h1>
 <table>
@@ -38,20 +38,20 @@
     </tr>
     </thead>
     <tbody>
-        <?php foreach ($data as $line):?>
-            <tr>
-                <?php foreach ($line as $col):?>
+    <?php foreach ($data as $line): ?>
+        <tr>
+            <?php foreach ($line as $col): ?>
                 <?php $col = trim($col); ?>
                 <?php if (strpos($col,'http://') === 0): ?>
-                        <td><a href="<?php echo strtolower($col); ?>"><?php echo substr($col,7)?></a></td>
-                    <?php else: ?>
-                        <td><?php echo $col ?></td>
+                    <td><a href="<?php echo strtolower($col); ?>"><?php echo substr($col,7); ?></a></td>
+                <?php else: ?>
+                    <td><?php echo $col ?></td>
                 <?php endif; ?>
 
 
-                <?endforeach;?>
-            </tr>
-        <?php endforeach;?>
+            <?php endforeach; ?>
+        </tr>
+    <?php endforeach; ?>
     </tbody>
 </table>
 <form action="adduser.php" method="post">
