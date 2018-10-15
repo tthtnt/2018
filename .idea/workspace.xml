@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a126fcf-6d9d-425b-b34c-e56e003a7054" name="Default" comment="PHP第三天过半">
-      <change afterPath="$PROJECT_DIR$/php/third/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/third/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/third/form-file.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/third/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/third/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/third/add.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,17 +32,17 @@
     <session id="-1559552601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.18" value="4" />
-          <entry key="project.open.time.19" value="7" />
+          <entry key="project.open.time.19" value="8" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +75,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="175" />
-          <entry key="html" value="35901" />
+          <entry key="html" value="35960" />
           <entry key="ini" value="26" />
           <entry key="js" value="4310" />
           <entry key="php" value="6664" />
@@ -87,7 +84,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="35901" />
+          <entry key="HTML" value="35960" />
           <entry key="Ini" value="26" />
           <entry key="JavaScript" value="4310" />
           <entry key="PHP" value="6664" />
@@ -168,8 +165,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/third/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="486">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -420,6 +417,8 @@
       <workItem from="1539310616656" duration="1816000" />
       <workItem from="1539400386952" duration="7543000" />
       <workItem from="1539416538929" duration="175000" />
+      <workItem from="1539416882595" duration="34000" />
+      <workItem from="1539566539177" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="第二天上午">
       <created>1532750395865</created>
@@ -540,17 +539,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539249591091</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="PHP第三天过半">
+      <created>1539416902734</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1539416902734</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293396000" />
+    <option name="totallyTimeSpent" value="296235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -944,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/third/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="486">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
